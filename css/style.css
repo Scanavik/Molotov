@@ -261,15 +261,12 @@ p {
 }
 
 .laser-man {
-  margin-left: -55%;
-  width: 135%;
+  width: 100%;
   height: auto;
+  margin-left: -15%;
   z-index: 2;
 }
 
-/*.main-screen__offer-two {
-  padding-top: 500px
-}*/
 
 .main-screen__offer-small {
   position: absolute;
@@ -325,14 +322,14 @@ span {
 /*events*/
 
 .events {
-  height: 797px;
+  height: 897px;
   width: 100%;
   background: linear-gradient(180deg, #2D2C33, #151824);
 }
 
 .wrapper-content {
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 200px;
   width: calc(100% - 120px); 
 }
 
