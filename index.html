@@ -29,7 +29,7 @@
         <li class="page-header__item"><a href="#" class="nav-ref">Арсенал</a></li>
         <li class="page-header__item"><a href="#" class="nav-ref">Отзывы</a></li>
         <li class="page-header__item"><a href="#photo" class="nav-ref">Фото</a></li>
-        <li class="page-header__item"><a href="#" class="nav-ref">Контакты</a></li>
+        <li class="page-header__item"><a href="#contact" class="nav-ref">Контакты</a></li>
       </ul>
     </nav>
     <div class="page-header__connect">
@@ -39,7 +39,7 @@
     </div>
   </header>
   
-  <main class="page-main">
+  <main class="page-main" id="page-main">
     
     <section class="main-screen">
       <div class="main-screen__content">
@@ -53,11 +53,11 @@
             <li class="main-screen__item">Турниры</li>
             <li class="main-screen__item">Организация корпоративов</li>
           </ul>
-          <a href="#" class="button">Записаться на игру</a>
+          <a href="#contact" class="button">Записаться на игру</a>
         </div>
         <div class="main-screen__right-column">
           <div class="main-screen__offer-two">
-            <p class="main-screen__offer-small">Цена игры <br> одного участника <span>от 300 Р</span></p>
+            <p class="main-screen__offer-small">Цена игры <br> одного участника <span>от 250 Р</span></p>
           </div>
           <img src="img/men.png" alt="Мужчина с лазерным оружием" class="laser-man" width="749" height="317">
           <p class="main-screen__text-behind">МОЛОТОВ</p>
@@ -172,10 +172,74 @@
             <img src="img/Rectangle99.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
           </li>
         </ul>
+        <div class="video-vk">
+          <ifram src="https://vk.com/video_ext.php?oid=-52047386&id=456239133&hash=a2113fab65c67c81&hd=1" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__content wrapper-content">
+        <h2 class="title__heading">Записаться на игру</h2>
+        <form class="contact__form" action="#" method="POST">
+          <p class="contact__label-wrapper">
+            <label class="contact__input" for="username">Ваше имя</label> 
+            <input type="text" id="username" placeholder="Имя">
+          </p>
+          <p class="contact__label-wrapper">
+            <label class="contact__input" for="datetime">Дата мероприятия</label>
+            <input type="date" id="datetime" value="2021-02-01">
+          </p>
+          <p class="contact__label-wrapper">
+            <label class="contact__input" for="phone">Телефон</label>
+            <input type="phone" id="phone" placeholder="8-900-200-11-11">
+          </p>
+          <button class="contact__button button" type="submit"><span class="button__text-wrapper">Записаться на игру</span></button>
+        </form>
+        <img src="/img/contact_child.png" alt="" class="contact__img" width="277" height="400">
       </div>
     </section>
     
   </main>
   
+  <footer class="page-footer">
+    <div class="page-footer__content wrapper-content">
+      <div class="page-footer__map" id="map">
+      </div>
+      <div class="page-footer__contact">
+        <div class="page-footer__logo-wrapper">
+          <a href="#page-main" class="logo">
+            <img src="img/logo-img.svg" alt="" class="logo__img" width="40" height="40">
+            <div class="logo__text-wrapper">
+              <p class="logo__text-big">Молотов парк</p>
+              <p class="logo__text-small">центр тактических игр</p>
+            </div>
+          </a>
+        </div>
+        <p class="page-footer__adress">Адрес: г. Пермь, ул. Магистральна, 89 </p>
+        <p class="page-footer__phone">Телефон: 286-27-97</p>
+        <p class="page-footer__email">Email: molotovpark@yandex.ru</p>
+        <div class="social-icons">
+          <a href="https://vk.com/lasertagzakamsk" class="social"><img src="/img/vk.svg" alt="" class="vk-icon" width="40" height="40"></a>
+          <a href="https://www.instagram.com/lasertagzakamsk/" class="social"><img src="/img/instagram.svg" alt="" class="insta-icon" width="40" height="40"></a>
+          <a href="#" class="social"><img src="/img/viber.svg" alt="" class="viber-icon" width="40" height="40"></a>
+        </div>
+      </div>
+      <div class="page-footer__nav">
+        <ul class="page-footer__list">
+          <li class="page-footer__item"><a href="#events" class="footer__nav">О нас</a></li>
+          <li class="page-footer__item"><a href="#how" class="footer__nav">Как записаться</a></li>
+          <li class="page-footer__item"><a href="#" class="footer__nav">Сценарии</a></li>
+          <li class="page-footer__item"><a href="#" class="footer__nav">Арсенал</a></li>
+          <li class="page-footer__item"><a href="#" class="footer__nav">Отзывы</a></li>
+          <li class="page-footer__item"><a href="#photo" class="footer__nav">Фото</a></li>
+          <li class="page-footer__item"><a href="#contact" class="footer__nav">Контакты</a></li>
+        </ul>
+
+      </div>
+    </div>
+    <p class="page-footer__copyright">&copy; 2021, Никита Кушнарев, Scanavik prod.</p>
+  </footer>
+
 </body>
 </html>
