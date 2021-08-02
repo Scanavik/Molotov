@@ -1,5 +1,6 @@
 # Molotov  
-
+![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres0.png)  
+  
 ### Многостраничный сайт-визитка для лазертаг клуба.  
   
 #### Вопросы, решенные при выполнении проекта:  
