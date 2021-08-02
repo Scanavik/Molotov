@@ -7,7 +7,7 @@
 * выполнение макета сайта
 * верстка и программирование сайта  
   
-Верстка выполнена по разработанному мной макету https://www.figma.com/file/RDoJ9YubkIwn8FUsA8lijG/Molotov
+[Посмотреть макет](https://www.figma.com/file/RDoJ9YubkIwn8FUsA8lijG/Molotov)
 
 ![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres1.png)  
   
