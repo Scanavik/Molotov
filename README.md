@@ -4,5 +4,5 @@
   
 Верстка выполнена по разработанному мной макету https://www.figma.com/file/RDoJ9YubkIwn8FUsA8lijG/Molotov
 
-![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/21.png) 
-![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres_1.png)  
+![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres1.png) 
+![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres1.png)  
