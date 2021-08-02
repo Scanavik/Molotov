@@ -4,7 +4,7 @@
   
 Вопросы, решенные при выполнении проекта:  
 + составление прототипа сайта
-+ выполнение макета сайта [Посмотреть макет](https://www.figma.com/file/RDoJ9YubkIwn8FUsA8lijG/Molotov)
++ выполнение макета сайта ([Посмотреть макет](https://www.figma.com/file/RDoJ9YubkIwn8FUsA8lijG/Molotov))
 + верстка и программирование сайта  
   
 
