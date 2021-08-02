@@ -9,5 +9,5 @@
 Были сформированы цели  
 ![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres2.png)  
 и ряд критериев, которым должен соответствовать сайт  
-![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres3.png)  
+![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/23.png)  
 
