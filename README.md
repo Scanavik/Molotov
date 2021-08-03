@@ -17,5 +17,11 @@
   
 и ряд критериев, которым должен соответствовать сайт  
 ![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres3.png)  
+  
+После анализа конкурентов, составлен прототип будующего сайта
+![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres4.png)  
+  
+Далее, выполнен макет сайта. Разработан макет главной страницы для 3-х видов устройств. (ПК, планшет и мобильная версия) 
+![Image alt](https://github.com/Scanavik/Molotov/raw/main/img/pres5.png)  
 
-
+После согласования макета, выполнена верстка и программирование сайта.
