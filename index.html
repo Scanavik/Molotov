@@ -1,413 +1,465 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <title>Молотов Парк|Лазертаг в Перми</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=f969721e-bd50-47a9-919a-501d96d6a1be&lang=ru_RU"
+        type="text/javascript">
+    </script>
+    <title>Молотов Парк|Лазертаг в Перми</title>
 </head>
+
 <body>
-  
-  <header class="page-header">
-    <div class="page-header__logo-wrapper">
-      <a href="#" class="logo">
-        <img src="img/logo-img.svg" alt="" class="logo__img" width="40" height="40">
-        <div class="logo__text-wrapper">
-          <p class="logo__text-big">Молотов парк</p>
-          <p class="logo__text-small">центр тактических игр</p>
-        </div>
-      </a>
-    </div>
-    <nav class="page-header__main-nav">
-      <ul class="page-header__list">
-        <li class="page-header__item"><a href="#events" class="nav-ref">О нас</a></li>
-        <li class="page-header__item"><a href="#how" class="nav-ref">Как записаться</a></li>
-        <li class="page-header__item"><a href="#" class="nav-ref">Сценарии</a></li>
-        <li class="page-header__item"><a href="#arsenal" class="nav-ref">Арсенал</a></li>
-        <li class="page-header__item"><a href="#" class="nav-ref">Отзывы</a></li>
-        <li class="page-header__item"><a href="#photo" class="nav-ref">Фото</a></li>
-        <li class="page-header__item"><a href="#contact" class="nav-ref">Контакты</a></li>
-      </ul>
-    </nav>
-    <div class="page-header__connect">
-      <p class="connect__text-big">286-27-97</p>
-      <p class="connect__text-small">ул. Магистральная, 89</p>
-      <p class="connect__text-small">г. Пермь</p>
-    </div>
-  </header>
-  
-  <main class="page-main" id="page-main">
-    
-    <section class="main-screen">
-      <div class="main-screen__content">
-        <div class="main-screen__left-column">
-          <div class="main-screen__offer-one">
-            <p class="main-screen__text-big">ТЁПЛАЯ АРЕНА И УНИКАЛЬНЫЕ ТЕХНОЛОГИИ ДЛЯ ИГРЫ В ЛАЗЕРТАГ В ПЕРМИ</p>
-          </div>
-          <ul class="main-screen__list">
-            <li class="main-screen__item">Лазертаг</li>
-            <li class="main-screen__item">Лазерный тир</li>
-            <li class="main-screen__item">Турниры</li>
-            <li class="main-screen__item">Организация корпоративов</li>
-          </ul>
-          <a href="#contact" class="button">Записаться на игру</a>
-        </div>
-        <div class="main-screen__right-column">
-          <div class="main-screen__offer-two">
-            <p class="main-screen__offer-small">Цена игры <br> одного участника <span>от 250 Р</span></p>
-          </div>
-          <img src="img/men.png" alt="Мужчина с лазерным оружием" class="laser-man" width="749" height="317">
-          <p class="main-screen__text-behind">МОЛОТОВ</p>
-          <p class="main-screen__text-front">ПАРК</p>
-        </div>
-      </div>
-      
-    </section>
-    
-    <section class="events" id="events">
-      <div class="events__content wrapper-content"> 
-        <h2 class="title__heading">Помогаем организовать Ваше мероприятие</h2>
-        <ul class="events__list">
-          <li class="events__item">
-            <p class="events__text">Провести крутой день рождения для Вашего ребенка!</p>
-          </li>
-          <li class="events__item">
-            <p class="events__text">Активно провести время в компании друзей!</p>
-          </li>
-          <li class="events__item">
-            <p class="events__text">Корпоративное мероприятие или корпоративный турнир!</p>
-          </li>
-          <li class="events__item">
-            <p class="events__text">Выездной лазертаг</p>
-          </li>
-          <li class="events__item">
-            <p class="events__text">Школьный турнир</p>
-          </li>
-          <li class="events__item">
-            <p class="events__text">Тимбилдинг</p>
-          </li>
-        </ul>
-      </div> 
-    </section>
-    
-    <section class="about" id="about">
-      <div class="about__content wrapper-content"> 
-        <div class="about__column">
-          <img src="img/about__ibg-img.png" class="about__man-img" alt="Стань героем любимой игры" width="402" height="640">
-          <ul class="about__list">
-            <li class="about__item">
-              <p class="about__advantages-text">Тёплая арена площадью 300 м2</p>
-            </li>
-            <li class="about__item">
-              <p class="about__advantages-text">Отдельная банкетная зона</p>
-            </li>
-            <li class="about__item">
-              <p class="about__advantages-text">12 видов оружия, жилеты, гранаты</p>
-            </li>
-          </ul>
-          <img src="img/Group_87.png" class="about__bg-label" alt="Стань героем любимой игры" width="692" height="231">
-        </div>
-        <div class="about__column">
-          <h2 class="title__heading about__heading">Об игре в лазертаг</h2>
-          <p class="about__text">Лазертаг — это новый вид активного отдыха, захватывающая командная игра и соревнование. Лазерные бои, доступные для каждого и совершенно безопасные!</p>
-          <p class="about__text">В лазертаг могут играть абсолютно все: дети, девушки и мужчины. Неважен рост, вес и возраст, важна воля к победе.</p>
-          <p class="about__text">Это тактическая игра, которая имитирует бой стрелковым оружием.Ваша цель – поразить противника из специального лазертаг-оружия. Цель Вашего противника аналогичная! Посмотрим, кто окажется ловчее и удачливее.</p>
-          <p class="about__text">В лазертаге нет травмирующих элементов в виде пуль или шариков с краской. Выстрел из тагера – это безопасный инфракрасный луч.</p>
-        </div>
-      </div> 
-    </section>
-    
-    <section class="how-work" id="how">
-      <div class="how-work__content wrapper-content">
-        <h2 class="title__heading how-work__heading">Попасть на игру в Молотов Парк просто!</h2>
-        <ul class="how-work__list">
-          <li class="how-work__item">
-            <p class="how-work__text">Оставь заявку на сайте</p>
-          </li>
-          <li class="how-work__item">
-            <p class="how-work__text">Внеси предоплату удобным способом</p>
-          </li>
-          <li class="how-work__item">
-            <p class="how-work__text">Играй и классно проводи время</p>
-          </li>
-          <li class="how-work__item">
-            <p class="how-work__text">Празднуй победу с друзьями!</p>
-          </li>
-        </ul>
-      </div> 
-    </section>
-    
-    <section class="arsenal" id="arsenal">
-      <div class="arsenal__content wrapper-content">
-        <h2 class="arsenal__heading title__heading">Арсенал, доступный для вас</h2>
-        <div class="arsenal__column-wrapper">
-          <div class="arsenal__column">
-          <p class="arsenal__heading-select">Выбери свой боевой комплект</p>
-          <div class="arsenal__select">
-            <select name="arsenal__weapons-filter" class="select-weapons">
-              <option value="rifle" selected>Автоматы</option>
-              <option value="sniper">Снайперские винтовки</option>
-              <option value="pistols">Пистолеты</option>
-              <option value="optional">Доп. оборудование</option>
-            </select>
-          </div>
-          <ul class="arsenal__gallery-list">
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon1.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon2.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon3.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon1.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon2.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon3.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon1.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon2.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-            <li class="arsenal__gallery-item">
-              <img src="img/weapon3.png" alt="автомат №1" class="arsenal__gallery-img" width="180" height="100">
-            </li>
-          </ul>
-          </div>
-          <div class="arsenal__column">
-          <div class="arsenal__slide-wrapper" id="slider-first">
-            <ul class="arsenal__slide-list">
-              <li class="arsenal__slide-item slider-item slider-item--active">
-                <p class="arsenal__weapon-name">G36</p>
-                <img src="img/main_weapon.png" alt="автомат G36" class="arsenal__slide-img">
-                <div class="arsenal__weapon-character">
-                  <p class="arsenal__character-heading">Характеристики оружия</p>
-                  <ul class="arsenal__character-list">
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Точность</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Дистанция</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Урон</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Вес</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                  </ul>
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="page-header__container container">
+                <a href="#" class="logo">
+                    <!-- <img src="#" alt="Лого"> -->
+                    <div class="logo__text-wrapper">
+                        <p class="logo__text-big">Молотов парк</p>
+                        <p class="logo__text-small">центр тактических игр</p>
+                    </div>
+                </a>
+                <div class="page-header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="about.html" class="nav-ref">О нас</a></li>
+                            <li class="menu__item"><a href="services.html" class="nav-ref">Услуги</a></li>
+                            <li class="menu__item"><a href="#arsenal" class="nav-ref">Арсенал</a></li>
+                            <li class="menu__item"><a href="#rewui" class="nav-ref">Отзывы</a></li>
+                            <li class="menu__item"><a href="#photo" class="nav-ref">Фото</a></li>
+                            <li class="menu__item"><a href="#contact" class="nav-ref">Контакты</a></li>
+                        </ul>
+                    </nav>
                 </div>
-              </li>
-              <li class="arsenal__slide-item slider-item">
-                <p class="arsenal__weapon-name">AK47</p>
-                <img src="img/main_weapon2.png" alt="автомат AK47" class="arsenal__slide-img">
-                <div class="arsenal__weapon-character">
-                  <p class="arsenal__character-heading">Характеристики оружия</p>
-                  <ul class="arsenal__character-list">
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Точность</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Дистанция</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Урон</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Вес</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                  </ul>
+                <div class="page-header__contact">
+                    <p class="connect__text-big text-big">286-27-97</p>
+                    <p class="connect__text-small text-small">ул. Магистральная, 89</p>
+                    <p class="connect__text-small text-small">г. Пермь</p>
                 </div>
-              </li>
-              <li class="arsenal__slide-item slider-item">
-                <p class="arsenal__weapon-name">AK74</p>
-                <img src="img/main_weapon3.png" alt="автомат AK74" class="arsenal__slide-img">
-                <div class="arsenal__weapon-character">
-                  <p class="arsenal__character-heading">Характеристики оружия</p>
-                  <ul class="arsenal__character-list">
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Точность</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Дистанция</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Урон</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Вес</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="arsenal__slide-item slider-item">
-                <p class="arsenal__weapon-name">HeadShooter 1</p>
-                <img src="img/main_weapon4.png" alt="автомат G36" class="arsenal__slide-img">
-                <div class="arsenal__weapon-character">
-                  <p class="arsenal__character-heading">Характеристики оружия</p>
-                  <ul class="arsenal__character-list">
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Точность</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Дистанция</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Урон</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                    <li class="arsenal__character-item">
-                      <span class="arsenal__character-text">Вес</span>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--dark"></div>
-                      <div class="arsenal__character-infographic arsenal__character-infographic--light"></div>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-            <div class="arsenal__arrow-left" id="arsenal__arrow-left"></div>
-            <div class="arsenal__arrow-right" id="arsenal__arrow-right"></div>
-          </div>
-          </div>
-        </div>
-    </section>
+                <!-- <div class="page-header__info wrapper-content">
+                    <div class="page-header__contact-wrapper info-column__wrapper">
+                        <div class="page-header__phone info-block__wrapper link">
+                            <div class="page-header__info-block info-block__left">
+                                <a href="#" class="logo">
+                                    <img src="img/logo-img.svg" width="40" height="40" alt="Логотип Молотов Парк"
+                                        class="logo__img">
+                                    <div class="logo__text-wrapper">
+                                        <p class="logo__text-big">Молотов парк</p>
+                                        <p class="logo__text-small">центр тактических игр</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 
-    <section class="photo" id="photo">
-      <div class="photo__content wrapper-content">
-        <h2 class="title__heading photo__heading">Фото с наших игр в Молотов Парк</h2>
-        <ul class="photo__list">
-          <li class="photo__item">
-            <img src="img/Rectangle91.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle92.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle93.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle94.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle95.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle96.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle97.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle98.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-          <li class="photo__item">
-            <img src="img/Rectangle99.jpg" alt="Дети играют в Молотов Парк" class="photo__img" width="360" height="270">
-          </li>
-        </ul>
-      </div>
-    </section>
-    
-    <section class="contact" id="contact">
-      <div class="contact__content wrapper-content">
-        <h2 class="title__heading">Записаться на игру</h2>
-        <form class="contact__form" action="#" method="POST">
-          <p class="contact__label-wrapper">
-            <label class="contact__input" for="username">Ваше имя</label> 
-            <input type="text" id="username" placeholder="Имя">
-          </p>
-          <p class="contact__label-wrapper">
-            <label class="contact__input" for="datetime">Дата мероприятия</label>
-            <input type="date" id="datetime" value="2021-02-01">
-          </p>
-          <p class="contact__label-wrapper">
-            <label class="contact__input" for="phone">Телефон</label>
-            <input type="phone" id="phone" placeholder="8-900-200-11-11">
-          </p>
-          <button class="contact__button button" type="submit"><span class="button__text-wrapper">Записаться на игру</span></button>
-        </form>
-        <img src="img/contact_child.png" alt="" class="contact__img" width="277" height="400">
-      </div>
-    </section>
-    
-  </main>
-  
-  <footer class="page-footer">
-    <div class="page-footer__content wrapper-content">
-      <div class="page-footer__map" id="map">
-      </div>
-      <div class="page-footer__contact">
-        <div class="page-footer__logo-wrapper">
-          <a href="#page-main" class="logo">
-            <img src="img/logo-img.svg" alt="" class="logo__img" width="40" height="40">
-            <div class="logo__text-wrapper">
-              <p class="logo__text-big">Молотов парк</p>
-              <p class="logo__text-small">центр тактических игр</p>
+                        <div class="page-header__email info-block__wrapper link">
+                            <div class="page-header__phone-wrapper page-header__info-block info-block__right">
+                                <div class="page-header__connect">
+                                    <p class="connect__text-big text-big">286-27-97</p>
+                                    <p class="connect__text-small text-small">ул. Магистральная, 89</p>
+                                    <p class="connect__text-small text-small">г. Пермь</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             </div>
-          </a>
-        </div>
-        <p class="page-footer__adress">Адрес: г. Пермь, ул. Магистральна, 89 </p>
-        <p class="page-footer__phone">Телефон: 286-27-97</p>
-        <p class="page-footer__email">Email: molotovpark@yandex.ru</p>
-        <div class="social-icons">
-          <a href="https://vk.com/lasertagzakamsk" class="social"><img src="img/vk.svg" alt="" class="vk-icon" width="40" height="40"></a>
-          <a href="https://www.instagram.com/lasertagzakamsk/" class="social"><img src="img/instagram.svg" alt="" class="insta-icon" width="40" height="40"></a>
-          <a href="#" class="social"><img src="img/viber.svg" alt="" class="viber-icon" width="40" height="40"></a>
-        </div>
-      </div>
-      <div class="page-footer__nav">
-        <ul class="page-footer__list">
-          <li class="page-footer__item"><a href="#events" class="footer__nav">О нас</a></li>
-          <li class="page-footer__item"><a href="#how" class="footer__nav">Как записаться</a></li>
-          <li class="page-footer__item"><a href="#" class="footer__nav">Сценарии</a></li>
-          <li class="page-footer__item"><a href="#arsenal" class="footer__nav">Арсенал</a></li>
-          <li class="page-footer__item"><a href="#" class="footer__nav">Отзывы</a></li>
-          <li class="page-footer__item"><a href="#photo" class="footer__nav">Фото</a></li>
-          <li class="page-footer__item"><a href="#contact" class="footer__nav">Контакты</a></li>
-        </ul>
 
-      </div>
+        </header>
+
+        <main class="page-main" id="page-main">
+
+            <section class="main-screen">
+                <div class="main-screen__body wrapper-content">
+                    <div class="main-screen__content">
+                        <div class="main-screen__title">
+                            <p class="main-screen__text-big">ТЁПЛАЯ АРЕНА И УНИКАЛЬНЫЕ ТЕХНОЛОГИИ ДЛЯ ИГРЫ В ЛАЗЕРТАГ В
+                                ПЕРМИ</p>
+                        </div>
+                        <ul class="main-screen__list">
+                            <li class="main-screen__item">Лазертаг</li>
+                            <li class="main-screen__item">Лазерный тир</li>
+                            <li class="main-screen__item">Прятки в темноте</li>
+                            <li class="main-screen__item">Турниры</li>
+                            <li class="main-screen__item">Организация корпоративов</li>
+                        </ul>
+                        <a href="#contact" class="button">Записаться на игру</a>
+                    </div>
+                    <img src="img/men.png" alt="Мужчина с лазерным оружием" class="laser-man" width="749" height="317">
+                </div>
+
+                <p class="main-screen__text-behind">МОЛОТОВ</p>
+                <p class="main-screen__text-front">ПАРК</p>
+            </section>
+
+
+            <section class="events fullscreen" id="events">
+                <div class="events__content wrapper-content">
+                    <h2 class="section-heading">Помогаем организовать Ваше мероприятие</h2>
+                    <ul class="events__list">
+                        <li class="events__item">
+                            <p class="events__text">Провести крутой день рождения для Вашего ребенка!</p>
+                        </li>
+                        <li class="events__item">
+                            <p class="events__text">Активно провести время в компании друзей!</p>
+                        </li>
+                        <li class="events__item">
+                            <p class="events__text">Корпоративное мероприятие или корпоративный турнир!</p>
+                        </li>
+                        <li class="events__item">
+                            <p class="events__text">Выездной лазертаг</p>
+                        </li>
+                        <li class="events__item">
+                            <p class="events__text">Школьный турнир</p>
+                        </li>
+                        <li class="events__item">
+                            <p class="events__text">Тимбилдинг</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about__content wrapper-content">
+                    <div class="about__column">
+                        <img src="img/about__ibg-img.png" class="about__man-img" alt="Стань героем любимой игры"
+                            width="402" height="640">
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <p class="about__advantages-text">Тёплая арена площадью 300 м2</p>
+                            </li>
+                            <li class="about__item">
+                                <p class="about__advantages-text">Отдельная банкетная зона</p>
+                            </li>
+                            <li class="about__item">
+                                <p class="about__advantages-text">12 видов оружия, жилеты, гранаты</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__column">
+                        <h2 class="section-heading about__heading">Об игре в лазертаг</h2>
+                        <p class="about__text">Лазертаг — это новый вид активного отдыха, захватывающая командная игра и
+                            соревнование.
+                            Лазерные бои, доступные для каждого и совершенно безопасные!</p>
+                        <p class="about__text">В лазертаг могут играть абсолютно все: дети, девушки и мужчины. Неважен
+                            рост,
+                            вес и
+                            возраст, важна воля к победе.</p>
+                        <p class="about__text">Это тактическая игра, которая имитирует бой стрелковым оружием.Ваша цель
+                            –
+                            поразить
+                            противника из специального лазертаг-оружия. Цель Вашего противника аналогичная! Посмотрим,
+                            кто
+                            окажется
+                            ловчее и удачливее.</p>
+                        <p class="about__text">В лазертаге нет травмирующих элементов в виде пуль или шариков с краской.
+                            Выстрел из
+                            тагера – это безопасный инфракрасный луч.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-work" id="how">
+                <div class="how-work__content wrapper-content">
+                    <h2 class="section-heading how-work__heading">Попасть на игру в Молотов Парк просто!</h2>
+                    <ul class="how-work__list">
+                        <li class="how-work__item">
+                            <img src="img/resume_1.svg" alt="">
+                            <p class="how-work__text">Оставь заявку на сайте</p>
+                        </li>
+                        <li class="how-work__item">
+                            <img src="img//wallet_1.svg" alt="">
+                            <p class="how-work__text">Внеси предоплату удобным способом</p>
+                        </li>
+                        <li class="how-work__item">
+                            <img src="img/soldier_1.svg" alt="">
+                            <p class="how-work__text">Играй и классно проводи время</p>
+                        </li>
+                        <li class="how-work__item">
+                            <img src="img/medal_1.svg" alt="">
+                            <p class="how-work__text">Празднуй победу с друзьями!</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="game-include">
+                <img src="img/game_table.png" alt="">
+            </section>
+
+            <section class="command">
+                <div class="command__body">
+                    <img src="img/childrens.png" alt="Команда мечты">
+                    <div class="command__content">
+                        <h3 class="command__title">Вступай в команду мечты</h3>
+                        <p class="command__text">Нет команды, но есть желание поиграть? Для такого случая у нас есть
+                            сборная игра.
+                            Может участвовать любой желающий, даже если пришел один. Ты станешь частью команды и отлично
+                            проведешь
+                            время. <br> Мы на практике убедились, что это верный способ найти единомышленников и новых
+                            друзей.
+                        </p>
+                        <p class="command__text">
+                            Приходите к нам на <span>тренировки</span>, участвуйте и <span>побеждайте в турнирах</span>,
+                            которые мы
+                            регулярно устраиваем.
+                        </p>
+                        <a href="#" class="button">Хочу попробовать</a>
+                    </div>
+                </div>
+                <img src="img/bg_childrens.png" alt="" class="command__bg">
+            </section>
+
+            <section class="arsenal">
+                <h2 class="section-heading">Наш арсенал</h2>
+                <div class="arsenal__slider swiper">
+                    <div class="arsenal__slider-wrapper swiper-wrapper">
+                        <div class="arsenal__slide swiper-slide">
+                            <h3 class="slide__title">Название</h3>
+                            <img src="img/main_weapon.png" alt="">
+                            <p>Характеристики</p>
+                        </div>
+                        <div class="arsenal__slide swiper-slide">
+                            <h3 class="slide__title">Название</h3>
+                            <img src="img/main_weapon2.png" alt="">
+                            <p>Характеристики</p>
+                        </div>
+                        <div class="arsenal__slide swiper-slide">
+                            <h3 class="slide__title">Название</h3>
+                            <img src="img/main_weapon3.png" alt="">
+                            <p>Характеристики</p>
+                        </div>
+                        <div class="arsenal__slide swiper-slide">
+                            <h3 class="slide__title">Название</h3>
+                            <img src="img/main_weapon4.png" alt="">
+                            <p>Характеристики</p>
+                        </div>
+                        <div class="arsenal__slide swiper-slide">
+                            <h3 class="slide__title">Название</h3>
+                            <img src="img/main_weapon.png" alt="">
+                            <p>Характеристики</p>
+                        </div>
+                        <div class="arsenal__slide swiper-slide">
+                            <h3 class="slide__title">Название</h3>
+                            <img src="img/main_weapon2.png" alt="">
+                            <p>Характеристики</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="arsenal-plus">
+                <img src="img/bg_arsenal-plus.jpg" alt="">
+                <div class="arsenal-plus__body">
+                    <div class="arsenal-plus__column">
+                        <h3>Мы гордимся</h3>
+                        <p>Мы гордимся своим арсеналом и даем вам лучшее:<br><br>
+
+                            Мы используем современное оборудование Российского лазертаг-производителя.<br><br>
+
+                            Все оборудование беспроводное. Поколение от 6-9.<br>
+                            Это значит, что вас ждет:<br>
+                            - имитация отдачи “feedback”. Таггер оживает в руках!<br>
+                            - 61 звуковой эффект для качественного звукового сопровождения игры;<br>
+                            - модернизированное оборудование до функций Wi-fi;<br>
+                            - cовременная оптика и высокая точность и дальность стрельбы до 500 м;<br>
+                            - подсветка выстрела крестом плюс оранжевое свечение выстрела.<br><br>
+
+                            Большая часть нашей аудитории это дети от 7 лет.<br>
+                            Поэтому наше оборудование может порадовать даже самых маленьких лазертаг-бойцов!<br><br>
+                            У нас разнообразный выбор от совсем легких таггеров до оружия с внушительными габаритами.
+                        </p>
+                    </div>
+                    <div class="arsenal-plus__column">
+                        <h3>Удобно и интересно</h3>
+                        <p>
+
+                            Нет ничего хуже, чем стрелять по своим.<br>
+                            Поэтому мы приготовили футболки и платки для маркировки цвета команды.<br><br><br>
+
+                            Для вашего комфорта мы предлагаем специальные гигиенические повязки на голову.<br><br><br>
+
+                            У нас есть много дополнительных девайсов:<br>
+                            контрольные точки, командные пункты, разгрузочные жилеты, комплекты медиков, аптечки,
+                            гранаты, мина-растяжка,
+                            имитатор взрывного устройства, лазертаг-бомба,
+                            мишень, флаги, шлемы и косплей маски.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="reviews">
+                <h2 class="section-heading">Уже 5000 человек провели у нас свой праздник и остались довольны</h2>
+                <div class="reviews__slider">
+                    <div class="reviews__slider-wrapper">
+                        <div class="reviews__slide">
+                            <div class="slide__autor-container">
+                                <img src="img/autor_1.png" alt="">
+                                <p>Юлия</p>
+                                <p>Москвина</p>
+                            </div>
+                            <div class="slide__review-container">
+                                <img src="img/bg_review.svg" alt="">
+                                <p>Мы с мужем были участниками сборной благотворительной игры в лазертаг! Играли первый
+                                    раз и поначалу вообще не понимали, что происходит😃 Но очень быстро втянулись и
+                                    вошли во вкус! Эмоции зашкаливали! Игра прошла очень весело и круто! 👍👍👍Отдельное
+                                    спасибо ребятам организаторам за помощь! Желаем дальнейшего процветания и роста! А
+                                    вообще, еще обязательно приедем поиграть! Муж уже команду набирает 😉</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide">
+                            <div class="slide__autor-container">
+                                <img src="img/autor_2.png" alt="">
+                                <p>Ламара</p>
+                                <p>Мациевская</p>
+                            </div>
+                            <div class="slide__review-container">
+                                <img src="img/bg_review.svg" alt="">
+                                <p>Мы с мужем были участниками сборной благотворительной игры в лазертаг! Играли первый
+                                    раз и поначалу вообще не понимали, что происходит😃 Но очень быстро втянулись и
+                                    вошли во вкус! Эмоции зашкаливали! Игра прошла очень весело и круто! 👍👍👍Отдельное
+                                    спасибо ребятам организаторам за помощь! Желаем дальнейшего процветания и роста! А
+                                    вообще, еще обязательно приедем поиграть! Муж уже команду набирает 😉</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide">
+                            <div class="slide__autor-container">
+                                <img src="img/autor_3.png" alt="">
+                                <p>Сергей</p>
+                                <p>Дмитриенко</p>
+                            </div>
+                            <div class="slide__review-container">
+                                <img src="img/bg_review.svg" alt="">
+                                <p>Мы с мужем были участниками сборной благотворительной игры в лазертаг! Играли первый
+                                    раз и поначалу вообще не понимали, что происходит😃 Но очень быстро втянулись и
+                                    вошли во вкус! Эмоции зашкаливали! Игра прошла очень весело и круто! 👍👍👍Отдельное
+                                    спасибо ребятам организаторам за помощь! Желаем дальнейшего процветания и роста! А
+                                    вообще, еще обязательно приедем поиграть! Муж уже команду набирает 😉</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="photo" id="photo">
+                <div class="photo__content wrapper-content">
+                    <h2 class="section-heading photo__heading">Фото с наших игр в Молотов Парк</h2>
+                    <ul class="photo__list">
+                        <li class="photo__item">
+                            <img src="img/Rectangle91.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle92.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle93.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle94.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle95.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle96.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle97.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle98.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                        <li class="photo__item">
+                            <img src="img/Rectangle99.jpg" alt="Дети играют в Молотов Парк" class="photo__img"
+                                width="360" height="270">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="contact__content wrapper-content">
+                    <h2 class="section-heading">Записаться на игру</h2>
+                    <form class="contact__form" action="#" method="POST">
+                        <p class="contact__label-wrapper">
+                            <label class="contact__input" for="username">Ваше имя</label>
+                            <input type="text" id="username" placeholder="Имя">
+                        </p>
+                        <p class="contact__label-wrapper">
+                            <label class="contact__input" for="datetime">Дата мероприятия</label>
+                            <input type="date" id="datetime" value="2021-02-01">
+                        </p>
+                        <p class="contact__label-wrapper">
+                            <label class="contact__input" for="phone">Телефон</label>
+                            <input type="phone" id="phone" placeholder="8-900-200-11-11">
+                        </p>
+                        <button class="contact__button button" type="submit"><span
+                                class="button__text-wrapper">Записаться
+                                на
+                                игру</span></button>
+                    </form>
+                    <img src="img/contact_child.png" alt="" class="contact__img" width="277" height="400">
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="page-footer">
+            <div class="page-footer__content wrapper-content">
+                <div class="page-footer__contact">
+                    <div class="column">
+                        <p class="info-item">Адрес: г. Пермь, ул. Магистральна, 89 </p>
+                        <p class="info-item">Телефон: 286-27-97</p>
+                        <p class="info-item">Email: hello@molotov.ru</p>
+                    </div>
+                    <div class="column">
+                        <div class="page-footer__logo-wrapper">
+                            <a href="#page-main" class="logo">
+                                <div class="logo__text-wrapper">
+                                    <p class="logo__text-big">Молотов парк</p>
+                                    <p class="logo__text-small">центр тактических игр</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://vk.com/lasertagzakamsk" class="social"><img src="img/vk.svg" alt=""
+                                    class="vk-icon" width="30" height="30"></a>
+                            <a href="https://www.instagram.com/lasertagzakamsk/" class="social"><img
+                                    src="img/instagram.svg" alt="" class="insta-icon" width="30" height="30"></a>
+                            <a href="#" class="social"><img src="img/viber.svg" alt="" class="viber-icon" width="30"
+                                    height="30"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <p class="page-footer__copyright">&copy; 2021, Никита Кушнарев, Scanavik prod.</p>
+        </footer>
     </div>
-    <p class="page-footer__copyright">&copy; 2021, Никита Кушнарев, Scanavik prod.</p>
-  </footer>
-  <script src="js/slider.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <!-- <script src="js/slider.js"></script> -->
+
 </body>
+
 </html>
