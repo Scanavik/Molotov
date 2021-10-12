@@ -1,6 +1,6 @@
 const swiper = new Swiper(".arsenal__slider", {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 40,
     loop: true,
     breakpoints: {
         640: {
